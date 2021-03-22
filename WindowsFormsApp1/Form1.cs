@@ -22,10 +22,10 @@ namespace WindowsFormsApp1
 
             if (txtusername.Text == "admin" && txtpassword.Text == "admin")
             {
-                //MessageBox.Show("thanh cong");
-                //var frm = new Form2();
-                //frm.Show();
-                //this.Hide();
+                MessageBox.Show("thanh cong");
+                var frm = new Form2();
+                frm.Show();
+                this.Hide();
             }
             else
                 MessageBox.Show("sai username hoac password");

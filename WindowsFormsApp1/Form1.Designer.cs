@@ -70,6 +70,7 @@ namespace WindowsFormsApp1
             this.label2.Size = new System.Drawing.Size(104, 25);
             this.label2.TabIndex = 3;
             this.label2.Text = "password";
+            this.label2.Visible = false;
             // 
             // textBox2
             // 
@@ -77,6 +78,7 @@ namespace WindowsFormsApp1
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(333, 31);
             this.textBox2.TabIndex = 4;
+            this.textBox2.Visible = false;
             // 
             // Form1
             // 

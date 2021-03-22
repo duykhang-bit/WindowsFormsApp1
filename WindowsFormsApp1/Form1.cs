@@ -19,16 +19,16 @@ namespace WindowsFormsApp1
 
         private void button1_Click(object sender, EventArgs e)
         {
-            
-            //if (textBox1.Text == "admin" && textBox2.Text == "admin")
-            //{
-            //    MessageBox.Show("thanh cong");
-            //    var frm = new Form2();
-            //    frm.Show();
-            //    this.Hide();
-            //}                
-            //else
-            //    MessageBox.Show("sai username hoac password");
+
+            if (txtusername.Text == "admin" && txtpassword.Text == "admin")
+            {
+                //MessageBox.Show("thanh cong");
+                //var frm = new Form2();
+                //frm.Show();
+                //this.Hide();
+            }
+            else
+                MessageBox.Show("sai username hoac password");
 
 
         }
